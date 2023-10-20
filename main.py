@@ -7,3 +7,7 @@ for number in range(1, 11):
 
 # Print the result
 print("The sum of numbers from 1 to 10 is:", total_sum)
+
+# Force error (for testing purposes).
+myList: list[int] = [1,2,3,4]
+print(myList[200])
